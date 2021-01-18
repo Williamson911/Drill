@@ -1,0 +1,59 @@
+@keyframes back {
+  from {background-color: black;}
+  to {background-color: white;}
+}
+
+body { width: 1000px;
+    background-color: black;
+}
+
+.buttons { padding-bottom: 30px;
+    
+}
+
+.button1 { width: auto;
+    height: 50px;
+    background-color: black;
+    border: 5px solid white;
+    margin-left: 800px;
+    color: white;
+    font-weight: bold;
+}
+
+.button1:hover { color: black;
+        animation-name: "back";
+        animation-duration: 1s;
+    }
+
+.button2 { width: auto;
+    height: 50px;
+    background-color: black;
+    border: 5px solid white;
+    margin-left: 800px;
+    color: white;
+    font-weight: bold;
+    transform: 
+}
+
+
+.button2:hover { background-color: white;
+    color: black;
+        transition: 1s;
+        transform: scale(1.15);
+    }
+
+
+.button3 { width: auto;
+    height: 50px;
+    background-color: black;
+    border: 5px solid white;
+    margin-left: 800px;
+    color: white;
+    font-weight: bold;
+}
+
+.button3:hover { background-color: white;
+    color: black;
+    transform: translate(10em);
+    transition: 1s;
+}
